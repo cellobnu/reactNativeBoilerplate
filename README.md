@@ -6,6 +6,7 @@ git clone https://github.com/cellobnu/reactNativeBoilerplate.git <nomeProjeto>
 
 # Atualizando os arquivos
 yarn
+
 cd <nomeProjeto> && cd ios && pod install && ..
 
 # Gerando o Build iOS
