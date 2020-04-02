@@ -6,7 +6,18 @@ Boilerplate em React Native, React Navigation v5.0, Redux
 git clone https://github.com/cellobnu/reactNativeBoilerplate.git < NOME_PROJETO >
 ```
 
+
 ## Requisitos Básicos
+- Renomeador de projetos
+
+  ### será instalado globalmente no seu ambiente
+
+  ```
+  cd
+  yarn global add react-native-rename
+  ```
+
+
 - Cocoapods 
   ### verificar está instalado (No seu terminal)
   ```
@@ -29,6 +40,7 @@ git clone https://github.com/cellobnu/reactNativeBoilerplate.git < NOME_PROJETO 
 - Xcode
 
   ### É necessário a instalação do Xcode https://developer.apple.com/xcode/
+
   No XCODE configurar as ferramentas de linha de comando (Command Line Tools):
 
   Abra o Xcode e escolha "Preferências ..."
@@ -56,26 +68,35 @@ git clone https://github.com/cellobnu/reactNativeBoilerplate.git < NOME_PROJETO 
 cd < NOME_PROJETO >
 ``` 
 
-- Baixando as dependências do projeto
+### Atualizando as dependências do projeto
 ```
 yarn
 ``` 
+### Alterando o nome do seu projeto
+```
+react-native-rename < NOME_PROJETO >
+```
+### limpando os caches
+````
+watchman watch-del-all
+yarn cache clean
+````
 
-- Entre na pasta do 'ios' e atualize as dependências do iOS para esse projeto
+### Entre na pasta do 'ios' e atualize as dependências do iOS para esse projeto
 ```
 cd ios
 pod install
 ```
- 
-
 
 # Gerando o Build iOS
+### Volte para a raiz do projeto
+
 ```
 yarn ios
 ```
 
-
 # Gerando o Build Android
+### Volte para a raiz do projeto
 ```
 yarn android
 ``` 
