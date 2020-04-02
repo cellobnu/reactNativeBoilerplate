@@ -24,7 +24,7 @@ git clone https://github.com/cellobnu/reactNativeBoilerplate.git < NOME_PROJETO 
   pod --version
   ```
 
-  ```1.9.0```
+  ```$ 1.9.0```
 
   ### INSTALANDO O COCOAPODS
 
